@@ -1,4 +1,5 @@
 #!/bin/bash
+# Created By: Matt Blackert
 declare -a Commands=('ns' 'a' 'aaaa' 'mx' 'soa')
 echo "Scan for $1" >> output.txt
 for i in "${Commands[@]}"; do
